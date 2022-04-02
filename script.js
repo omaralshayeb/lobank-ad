@@ -193,6 +193,7 @@ const slider = function () {
     activateDot(0);
   };
   init();
+
   //Event handlers
   btnRight.addEventListener('click', nextSlide);
   btnLeft.addEventListener('click', prevSlide);
